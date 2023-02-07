@@ -50,7 +50,7 @@ p {
     body {
         font-size: 1.8rem;
     }
-    
+
     h1 {
         font-size: 8rem;
     }
@@ -290,8 +290,8 @@ a {
 /* Card */
 .card {
     border-radius: 7px;
-    box-shadow: 0 0 20px 10px #f3f3f3;  
-    overflow: hidden; 
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
 }
 
 .card__header, .card__body {
@@ -371,4 +371,21 @@ a {
     .plan__description {
         font-size: 1.7rem;
     }
+}
+
+/* Media */
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2rem;
+}
+
+.media__image {
+    margin-top: 1rem;
 }
